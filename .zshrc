@@ -85,6 +85,10 @@ timezsh() {
   for i in $(seq 1 10); do /usr/bin/time $shell -i -c exit; done
 }
 
+function mkcd() {
+  mkdir $1 && cd $1
+}
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -108,3 +112,9 @@ timezsh() {
 # Example aliases
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
+
+alias ya='yarn add'
+alias yi='yarn install'
+alias yd='yarn dev'
+alias ys='yarn start'
+alias yb='yarn start'
