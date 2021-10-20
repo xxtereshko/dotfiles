@@ -5,3 +5,5 @@
 	editor = nano
 [init]
 	defaultBranch = main
+[push]
+	default = current
