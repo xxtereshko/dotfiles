@@ -1,5 +1,5 @@
 [user]
-	email = 19520678+xxtereshko@users.noreply.github.com
+	email = hey@tereshko.net
 	name = xxtereshko
 [core]
 	editor = nano
@@ -7,3 +7,5 @@
 	defaultBranch = main
 [push]
 	default = current
+[credential]
+	helper = osxkeychain
