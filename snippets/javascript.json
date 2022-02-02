@@ -1,0 +1,14 @@
+{
+  "Reversed For Loop": {
+    "prefix": "rfr",
+    "body": [
+      "const ${2:len} = ${3:array}.length",
+      "",
+      "for (let ${1:idx} = ${2:len}; ${1:idx} >= 0; ${1:idx}--) {",
+      "\tconst ${4:element} = ${3:array}[${1:idx}]",
+      "\t$0",
+      "}"
+    ],
+    "description": "For Loop"
+  }
+}
