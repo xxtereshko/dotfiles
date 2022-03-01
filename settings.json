@@ -1,75 +1,51 @@
 {
-  "editor.snippetSuggestions": "top",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
   "diffEditor.wordWrap": "off",
+  "editor.autoClosingBrackets": "always",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "MonoLisa, monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 15,
+  "editor.formatOnSave": true,
   "editor.lightbulb.enabled": false,
   "editor.minimap.enabled": false,
   "editor.padding.bottom": 23,
   "editor.padding.top": 23,
-  "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
-  "editor.autoClosingBrackets": "always",
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.unicodeHighlight.invisibleCharacters": false,
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   "git.autofetch": true,
-  "material-icon-theme.folders.theme": "classic",
-  "material-icon-theme.opacity": 0.8,
+  "git.confirmSync": false,
+  "git.smartCommitChanges": "tracked",
+  "javascript.autoClosingTags": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "material-icon-theme.showReloadMessage": false,
   "material-icon-theme.showWelcomeMessage": false,
-  "prettier.jsxBracketSameLine": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
   "security.workspace.trust.emptyWindow": false,
   "security.workspace.trust.untrustedFiles": "open",
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.gpuAcceleration": "canvas",
+  "typescript.autoClosingTags": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "window.autoDetectColorScheme": true,
   "window.autoDetectHighContrast": false,
   "window.restoreFullscreen": true,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Atom One Light",
+  "workbench.colorTheme": "Atom One Dark",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "workbench.preferredDarkColorTheme": "Atom One Dark",
   "workbench.preferredLightColorTheme": "Atom One Light",
-  "workbench.startupEditor": "none",
-  "explorer.confirmDragAndDrop": false,
-  "editor.tabSize": 2,
-  "editor.cursorBlinking": "phase",
-  "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[typescript]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
-  },
-  "[javasctipt]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
-  },
-  "[javasctiptreact]": {
-    "editor.linkedEditing": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
-  },
-  "[typescriptreact]": {
-    "editor.linkedEditing": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
-  },
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
-  "svelte.enable-ts-plugin": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "git.confirmSync": false
+  "workbench.startupEditor": "none"
 }
