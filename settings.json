@@ -1,51 +1,83 @@
 {
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
-  "diffEditor.wordWrap": "off",
-  "editor.autoClosingBrackets": "always",
+  "editor.bracketPairColorization.enabled": false,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": true,
+    "source.addMissingImports": true,
+    "source.fixAll": true
   },
+  "material-icon-theme.opacity": 0.75,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "MonoLisa, monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 15,
   "editor.formatOnSave": true,
-  "editor.lightbulb.enabled": false,
   "editor.minimap.enabled": false,
   "editor.padding.bottom": 23,
   "editor.padding.top": 23,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
-  "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
-  "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.unicodeHighlight.invisibleCharacters": false,
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "git.autofetch": true,
-  "git.confirmSync": false,
-  "git.smartCommitChanges": "tracked",
-  "javascript.autoClosingTags": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "material-icon-theme.showReloadMessage": false,
-  "material-icon-theme.showWelcomeMessage": false,
-  "security.workspace.trust.emptyWindow": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "telemetry.telemetryLevel": "off",
-  "terminal.integrated.gpuAcceleration": "canvas",
-  "typescript.autoClosingTags": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.autoDetectColorScheme": true,
-  "window.autoDetectHighContrast": false,
-  "window.restoreFullscreen": true,
+  "files.autoSave": "onFocusChange",
+  "security.workspace.trust.enabled": false,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+  "typescript.format.semicolons": "remove",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.preferredDarkColorTheme": "Atom One Dark",
-  "workbench.preferredLightColorTheme": "Atom One Light",
-  "workbench.startupEditor": "none"
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "files.exclude": {
+    ".next/": true,
+    "node_modules/": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "material-icon-theme.activeIconPack": "react",
+  "git.confirmSync": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {},
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "xxtereshko-light"
 }
