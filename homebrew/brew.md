@@ -1,3 +1,5 @@
+# Casks
+
 docker
 figma
 google-chrome
@@ -9,3 +11,12 @@ outline-manager
 postman
 telegram
 visual-studio-code
+
+# Packages
+
+curl ?
+git
+htop
+node
+python
+svgo
