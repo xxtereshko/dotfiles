@@ -1,0 +1,9 @@
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/github
+
+Host api
+  HostName api.tereshko.net
+  User sammy
+  IdentityFile ~/.ssh/api
