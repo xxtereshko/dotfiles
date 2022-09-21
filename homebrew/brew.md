@@ -11,10 +11,10 @@ outline-manager
 postman
 telegram
 visual-studio-code
+warp
 
 # Packages
 
-curl ?
 git
 htop
 node
