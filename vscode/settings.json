@@ -50,7 +50,8 @@
     "*": true,
     "yaml": false,
     "plaintext": false,
-    "markdown": false
+    "markdown": true,
+    "typescriptreact": true
   },
   "files.exclude": {
     ".next/": true,
@@ -64,7 +65,6 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "liveServer.settings.donotShowInfoMsg": true,
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "[handlebars]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -79,5 +79,13 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "xxtereshko-light"
+  "workbench.colorTheme": "Atom One Dark",
+  "git.suggestSmartCommit": false,
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.preferredDarkColorTheme": "Atom One Dark",
+  "workbench.preferredLightColorTheme": "xxtereshko-light",
+  "window.autoDetectColorScheme": true,
+  "terminal.external.osxExec": "/Applications/Warp.app"
 }
