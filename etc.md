@@ -1,5 +1,4 @@
 # Etc Programs
 
-outline
-bartender
-magnet
+- outline (for vpn management)
+- rectangle (for window management)
