@@ -5,87 +5,48 @@
     "source.addMissingImports": true,
     "source.fixAll": true
   },
-  "material-icon-theme.opacity": 0.75,
-  "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontFamily": "MonoLisa, monospace",
+  "editor.fontFamily": "MonoLisa, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 15,
+  "editor.fontSize": 14.5,
+  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.padding.bottom": 23,
   "editor.padding.top": 23,
   "editor.quickSuggestionsDelay": 0,
-  "editor.semanticHighlighting.enabled": false,
-  "editor.smoothScrolling": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
   "editor.tabSize": 2,
+  "emmet.triggerExpansionOnTab": true,
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
-  "files.autoSave": "onFocusChange",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "material-icon-theme.opacity": 0.75,
   "security.workspace.trust.enabled": false,
-  "workbench.activityBar.visible": false,
-  "workbench.list.smoothScrolling": true,
-  "workbench.startupEditor": "none",
-  "typescript.format.semicolons": "remove",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "telemetry.telemetryLevel": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.autoDetectColorScheme": true,
+  "workbench.colorTheme": "Atom One Dark",
   "workbench.iconTheme": "material-icon-theme",
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "workbench.preferredDarkColorTheme": "Atom One Dark",
+  "workbench.preferredLightColorTheme": "xxtereshko-light",
+  "workbench.startupEditor": "none",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "explorer.confirmDragAndDrop": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "git.autofetch": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.inlineSuggest.enabled": true,
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": false,
-    "markdown": true,
-    "typescriptreact": true
-  },
-  "files.exclude": {
-    ".next/": true,
-    "node_modules/": true
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "material-icon-theme.activeIconPack": "react",
-  "git.confirmSync": false,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.unicodeHighlight.ambiguousCharacters": false,
-  "[handlebars]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.colorCustomizations": {},
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Atom One Dark",
-  "git.suggestSmartCommit": false,
-  "[astro]": {
+  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.preferredDarkColorTheme": "Atom One Dark",
-  "workbench.preferredLightColorTheme": "xxtereshko-light",
-  "window.autoDetectColorScheme": true,
-  "terminal.external.osxExec": "/Applications/Warp.app"
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.visible": false
 }
