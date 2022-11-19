@@ -1,89 +1,87 @@
-export PATH="/usr/local/sbin:$PATH"
-export ZSH="$HOME/.oh-my-zsh"
+# Node@16
+export PATH="/usr/local/opt/node@16/bin:$PATH"
 
-# autoload -U promptinit; promptinit
-# prompt pure
-
-eval "$(rbenv init - zsh)"
-
-plugins=(git)
-
-source $ZSH/oh-my-zsh.sh
-
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"
+# Custom prompt
+PS1="%1~ > "
 
 
-alias zshconfig="code ~/.zshrc"
-alias pj="cd ~/workspace/projects/"
-alias c.="code ."
+### ALIASES ###
 
+alias pj='cd ~/projects'
+alias oss='open ~/screenshots'
+alias ss='cd ~/screenshots'
+alias zshconfig='code ~/.zshrc'
 
-# git
-alias gcg="git config --edit --global"
-alias gcl="git config --edit --local"
-alias guc="git reset --hard HEAD" # undo changes and preserve untracked files
-alias gcc="git clean -f -d -x" # clean ALL changes and remove untracked files
-alias gcae="git commit --allow-empty -m " # <message>
+## Common ##
 
-# Brew
-alias brewup="brew update; brew upgrade; brew cleanup; brew doctor"
-alias brewcup="brew upgrade --cask --greedy" # update all casks
-alias brewcupl="brew outdated --cask --greedy --verbose" # list updatable casks
+# List directory
+alias l='ls -lhG'
+alias ll='ls -lahG'
 
-# Docker
-alias dcu="docker-compose up"
-alias dcr="docker-compose run"
-alias dce="docker-compose exec"
-
-# Npm
-alias rnm="rm -rf node_modules"
-alias rbn="rm -rf build node_modules"
+# Files
+alias cp='cp -i'
+alias mv='mv -i'
 alias rap="rm -rf build coverage node_modules package-lock.json && npm i"
-alias cap="clean && rap"
+alias rbn="rm -rf build node_modules"
+alias rm='rm -i'
+alias rmrf='rm -rf'
+alias rnm="rm -rf node_modules"
 
-alias npk="npx npkill" #clean unused node_modules
-alias nkp="npx kill-port " # +portnumber
-alias nfk="npx fkill-cli" # +[<pid|name|:port> …] #kill processes
-
-alias nlg="npm list -g --depth 0" #list global packages installed
-
-alias ni="npm i"
-alias nis="npm i -S " # +package@version
-alias nise="npm i -S -E " # +package@version
-alias nid="npm i -D " # +package@version
-alias nide="npm i -D -E " # +package@version
-alias nr="npm r " # +package@version
-
-alias nrb="npm run build"
-alias nrbd="npm run build:dev"
-alias nrbq="npm run build:qa"
-alias nrs="npm run start"
-alias nrsd="npm run start:dev"
-alias nrsq="npm run start:qa"
-alias nrt="npm run test"
-alias nrtc="npm run test:c" #test with coverage
-
-alias np="npm run build && npm publish"
-alias nu="npm unpublish " # +package@version
-
-# Yarn
-alias ygl="yarn global list" #list global packages installed
-
-alias y="yarn"
-alias yc="yarn create"
-alias ya="yarn add " # +package@version
-alias yase="yarn add -S -E " # +package@version
-alias yad="yarn add -D " # +package@version
-alias yade="yarn add -D -E " # +package@version
-alias yr="yarn remove " # +package@version
-alias yb="yarn build"
-alias ys="yarn start"
-alias yd="yarn dev"
-alias yt="yarn test"
+# Directories
+alias -- -="cd -"
+alias ..='cd ../'
+alias ...='cd ../../'
 
 # Misc
-alias h="history -10"
-alias hc="history -c"
-alias hg="history | grep "
-alias cputemp="sudo powermetrics --samplers smc |grep -i \"CPU die temperature\""
+alias cl='clear'
+
+## Packages ##
+
+# VSCode
+alias c.='code .'
+
+# Yarn
+alias y="yarn"
+alias ya="yarn add" # +package@version
+alias yad="yarn add -D" # +package@version
+alias yade="yarn add -D -E" # +package@version
+alias yase="yarn add -S -E" # +package@version
+alias yb="yarn build"
+alias yc="yarn create"
+alias ycc="yarn cache clean"
+alias yd="yarn dev"
+alias yga="yarn global add"
+alias ygl="yarn global list" #list global packages installed
+alias ygls="yarn global list"
+alias ygrm="yarn global remove"
+alias yout="yarn outdated"
+alias yr="yarn remove" # +package@version
+alias ys="yarn start"
+alias yt="yarn test"
+
+# Git
+alias g='git'
+alias ga='git add'
+alias gaa='git add --all'
+alias gc='git clone'
+alias gcmsg='git commit -m'
+alias gp='git push'
+alias gra='git remote add'
+
+# Android Emulator
+alias avd="emulator -avd Pixel_3a_API_33_x86_64 -no-boot-anim -no-audio -no-snapshot-load"
+
+# Brew
+alias brewcup="brew upgrade --cask --greedy" # update all casks
+alias brewcupl="brew outdated --cask --greedy --verbose" # list updatable casks
+alias brewup="brew update; brew upgrade; brew cleanup; brew doctor"
+
+
+### Functions ###
+
+# Create directory and enter
+function mkcd
+{
+  dir="$*";
+  mkdir -p "$dir" && cd "$dir";
+}
