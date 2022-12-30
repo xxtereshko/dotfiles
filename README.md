@@ -24,13 +24,13 @@ $ curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/HE
 $ sh brew.sh
 ```
 
-4. Copy fonts
+4. Copy fonts (monospace)
 
 ```shell
 $ sh fonts.sh
 ```
 
-5. Copy config files
+5. Copy config files (zsh, git, VSCode)
 
 ```shell
 $ sh conf.sh
