@@ -1,5 +1,9 @@
-# Node@16
+# node@16
 export PATH="/usr/local/opt/node@16/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="$HOME/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
 
 # Custom prompt
 PS1="%1~ > "

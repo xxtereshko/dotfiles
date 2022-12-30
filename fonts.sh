@@ -1,0 +1,10 @@
+# Install Fonts
+echo "[COPY] Fonts"
+cp ./fonts/mono-medium-italic.otf ~/Library/Fonts
+cp ./fonts/mono-bold.otf ~/Library/Fonts
+cp ./fonts/mono-bold-italic.otf ~/Library/Fonts
+cp ./fonts/mono-light.otf ~/Library/Fonts
+cp ./fonts/mono-medium.otf ~/Library/Fonts
+cp ./fonts/mono-light-italic.otf ~/Library/Fonts
+cp ./fonts/mono-regular.otf ~/Library/Fonts
+cp ./fonts/mono-regular-italic.otf ~/Library/Fonts
