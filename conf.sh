@@ -3,10 +3,10 @@ echo "[COPY] Shell Settings"
 cp ./conf/shell/.zshrc ~/
 cp ./conf/shell/.hushlogin ~/
 
-
 # Copy Git settings
 echo "[COPY] Git Settings"
 cp ./conf/git/.gitconfig ~/
+cp ./conf/git/.gitignore ~/
 
 # Copy VSCode settings
 echo "[COPY] VSCode Settings"

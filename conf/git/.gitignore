@@ -1,0 +1,23 @@
+# General
+.AppleDouble
+.DS_Store
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.apdisk
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items

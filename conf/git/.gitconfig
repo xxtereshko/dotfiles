@@ -1,11 +1,15 @@
 [user]
 	email = hey@tereshko.net
 	name = xxtereshko
+
 [core]
 	editor = nano
+
 [init]
 	defaultBranch = main
+
 [push]
 	default = current
+
 [credential]
 	helper = osxkeychain
