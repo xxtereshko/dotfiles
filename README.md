@@ -35,3 +35,8 @@ $ sh fonts.sh
 ```shell
 $ sh conf.sh
 ```
+
+### Other
+
+- Rectangle (for quicker window snapping)
+- Outline (for VPN)
