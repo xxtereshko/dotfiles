@@ -38,5 +38,6 @@ $ sh conf.sh
 
 ### Other
 
+- XCode
 - Rectangle (for quicker window snapping)
 - Outline (for VPN)
